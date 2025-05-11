@@ -1,0 +1,17 @@
+مخطط نظام قراءة RFID باستخدام USB
+
+[RFID Reader (RC522)]
+        |
+        | (SPI Interface)
+        ↓
+[ATmega2560 Microcontroller]
+        |
+        | (USB Connection)
+        ↓
+[Computer/Flutter Application]
+
+الخطوات:
+1. قارئ RFID يقرأ البطاقة
+2. نقل البيانات عبر واجهة SPI للمتحكم
+3. إرسال المعرف (UID) عبر منفذ USB
+4. استقبال البيانات في تطبيق Flutter
