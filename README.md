@@ -19,7 +19,7 @@
 
 1. استنساخ المستودع
 ```bash
-git clone https://github.com/your-username/rfid_reader_app.git
+git clone https://github.com/hafizstofissa/RFID_APP.git
 ```
 
 2. تثبيت التبعيات
